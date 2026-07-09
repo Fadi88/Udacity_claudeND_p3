@@ -1,0 +1,82 @@
+﻿# Supply Chain Risk Briefing — Meridian
+
+## Well-Established
+### average_lead_time_days  _[corroborated across 2 sources]_
+- Reported values by source:
+    - 12.0 days — supplier_audit (as of 2026-04-10)
+    - 12.0 days — logistics (as of 2026-04-05)
+
+| Metric | Value | As of | Source |
+| --- | --- | --- | --- |
+| average_lead_time_days | 12.0 days | 2026-04-05 | logistics |
+
+### customer_supply_disruption  _[single source only]_
+> The advisory disrupted at least one contract manufacturer, forcing a brief reinspection of incoming inventory before resuming assembly (industry_news, 2026-02-01)
+
+### defect_rate_ppm  _[corroborated across 2 sources]_
+- Reported values by source:
+    - 180.0 ppm — supplier_audit (as of 2026-04-10)
+    - 190.0 ppm — internal_quality (as of 2026-04-08)
+
+### field_quality_concern  _[single source only]_
+> Meridian Components issued a voluntary quality advisory/recall for a single lot of surface-mount capacitor assemblies due to a potential reliability concern (industry_news, 2026-02-01)
+> An affected batch manufactured in late December 2025 may exhibit elevated leakage current under sustained thermal stress (industry_news, 2026-02-01)
+
+### field_return_rate  _[single source only]_
+- Reported values by source:
+    - 1.4 percent — internal_quality (as of 2026-04-08)
+
+### late_shipment_count  _[single source only]_
+- Reported values by source:
+    - 11.0 shipments — logistics (as of 2026-04-05)
+
+| Metric | Value | As of | Source |
+| --- | --- | --- | --- |
+| late_shipment_count | 11.0 shipments | 2026-04-05 | logistics |
+
+### logistics_contingency_response  _[single source only]_
+> Meridian Components is activating contingency routing through alternate West Coast terminals and expediting select air freight to mitigate strike-related delays. (industry_news, 2026-03-16)
+
+### manufacturing_process_defect  _[single source only]_
+> Root cause attributed to a drift in a dielectric curing parameter on one production line, since corrected and revalidated, with enhanced traceability and thermal screening (industry_news, 2026-02-01)
+
+### missed_payments_to_subcontractors  _[single source only]_  ⚠️ ESCALATE
+- escalation: ambiguous supplier identity — request an identifier
+> A supplier named 'Meridian' missed payments to subcontractors (industry_news, 2024-01-01)
+
+### port_disruption_delivery_delay  _[single source only]_
+> Meridian Components had several containers stranded at anchor during the Port of Long Beach 72-hour labor strike, delaying deliveries to multiple customers by an estimated five to nine days. (industry_news, 2026-03-16)
+
+### recall_scope  _[single source only]_
+> Fewer than 40,000 units across roughly a dozen customer accounts fell within the affected date code range; free replacement stock and expedited shipping offered (industry_news, 2026-02-01)
+
+### restructuring_advisers_retained  _[single source only]_  ⚠️ ESCALATE
+- escalation: ambiguous supplier identity — request an identifier
+> A supplier named 'Meridian' retained restructuring advisers (industry_news, 2024-01-01)
+
+### single_port_concentration_exposure  _[single source only]_
+> Meridian Components' inbound shipments of connectors and passive components route primarily through the Port of Long Beach, which was halted by a dockworker strike beginning March 16, 2026. (industry_news, 2026-03-16)
+> Meridian Components faces outsized exposure to localized labor actions due to reliance on a single port of entry. (industry_news, 2026-03-16)
+
+### supplier_financial_distress  _[single source only]_  ⚠️ ESCALATE
+- escalation: ambiguous supplier identity — request an identifier
+> A supplier named 'Meridian' has drawn down emergency credit lines amid deteriorating cash flow (industry_news, 2024-01-01)
+
+
+## Contested
+### on_time_delivery_rate  _[2 sources, conflicting]_  ⚠️ ESCALATE
+- escalation: high-impact metric is contested across sources
+- Reported values by source:
+    - 95.0 percent — supplier_audit (as of 2026-04-10)
+    - 78.0 percent — logistics (as of 2026-04-05)
+
+| Metric | Value | As of | Source |
+| --- | --- | --- | --- |
+| on_time_delivery_rate | 78.0 percent | 2026-04-05 | logistics |
+
+
+## Incomplete
+### production_capacity_utilization  _[missing source: no source reported this metric]_  ⚠️ ESCALATE
+- escalation: high-impact metric has no usable source
+- missing source: no source reported this metric
+
